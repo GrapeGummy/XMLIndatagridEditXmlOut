@@ -1,2 +1,15 @@
-<?xml version="1.0" standalone="yes"?>
-<JobConfig />
+<?xml version="1.0" encoding="utf-8"?>
+<JobConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<JobInfo>
+		<JobProperties>
+			<JobProperty Name="Job Name" Value="XSDDataGridXSD"/>
+			<JobProperty Name="Job Owner" Value="John Lennon"/>
+			<JobProperty Name="Job Description" Value="This has been edited"/>
+			<JobProperty Name="Job Country" Value="USA"/>
+			<CustomJobProperty Name="Hair Color" Value="Black" Required="true"/>
+			<CustomJobProperty Name="Eye Color" Value="Blue" Required="false"/>
+			<CustomJobProperty Name="Height" Value="5ft 3in" Required="true"/>
+			<CustomJobProperty Name="Weight" Value="120 lb" Required="true"/>
+		</JobProperties>
+	</JobInfo>
+</JobConfig>
